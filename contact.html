@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3a1c5e; /* Purple background color */
+            color: #fff; /* White text color */
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            animation: fadeIn 1s ease-out; /* Fade in effect */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            animation: slideInFromLeft 1s ease-out; /* Slide in effect */
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #fff; /* White border bottom for section headings */
+            padding-bottom: 5px;
+            animation: fadeIn 1s ease-out; /* Fade in effect */
+        }
+
+        .section p {
+            font-size: 18px;
+            animation: fadeIn 1s ease-out; /* Fade in effect */
+        }
+
+        /* Keyframe animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInFromLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+
+        <div class="section">
+            <h2>Email</h2>
+            <p>Email me at kpowdyal.com</p>
+        </div>
+
+        <div class="section">
+            <h2>Phone</h2>
+            <p>Call me at: +975 77345642</p>
+        </div>
+
+        <div class="section">
+            <h2>Social Media</h2>
+            <p>Connect with me on:</p>
+            <ul>
+                <li>Twitter: <a href="https://twitter.com/example">example</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/example">example</a></li>
+                
+            </ul>
+
+        </div>
+        <a id="b1" href="aboutme.html" class="arrow-down-link">
+            <i class="fa-solid fa-circle-down"></i>
+        </a>
+    </div>
+</body>
+
+</html>
